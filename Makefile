@@ -6,3 +6,6 @@ install-hugo:
 
 run:
 	cd website; hugo serve
+
+build:
+	cd website; hugo -D
